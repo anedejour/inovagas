@@ -1,0 +1,199 @@
+*{
+    outline: none;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    overflow: visible;
+}
+.nav-link{
+    color:#2C354A!important;
+    font-size: 16px!important;
+}
+.bg-light{
+    background-color: whitesmoke!important;
+}
+.fas{
+    margin-right: 5px;
+}
+.navbar-brand img {
+    max-width: 100%;
+    height: 100px;
+    height: aut;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+.nav-link{
+    max-width: 100%;
+    font-size: 18px;
+}
+#navbarText{
+    display:flex;
+    justify-content: space-between;
+}
+.app{
+    background-color: #4A97FD;
+    color: white!important;
+    border-radius: 18px;
+    padding: 8px 18px!important;
+    display: flex;
+    transition: ease-in-out 400ms;
+}
+.app:hover{
+    background-color: #3979FF;
+    transform: scale(1.05);
+}
+#formFooter{
+    text-align: center;
+    font-size: 16px;
+    color: #002F66;
+}
+#formFooter{  
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.04);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#rede{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #002F66;
+    text-align: center;
+}
+.fa-facebook, 
+.fa-linkedin, 
+.fa-google-plus{
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-left: 10px;
+}
+#redesSociais{
+    display: flex;
+    justify-content: center;
+
+}
+.fa-facebook:hover{
+    color: #139CF8 ;
+    transform: scale(1.05);
+
+}
+.fa-linkedin:hover{
+    color: #0077B5;
+    transform: scale(1.05);
+
+}
+.fa-google-plus:hover{
+    color: #DC5043;
+    transform: scale(1.05);
+}
+@media (max-width: 900px) {
+    #close{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+    .line{
+        width: 20px;
+        height: 1px;
+        background-color: gray;
+        margin-top: 5px;
+    }
+    .line:first-child{
+        margin-top: 0;
+    }
+    #navbarText{
+        position: fixed;
+        display: none;
+        width: 300px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        height: 100vh;
+        transition: ease-in-out 320ms;
+        right: 0;
+        z-index: 100;
+        top: 0;
+        opacity: 0;
+        animation: abrir-menu ease-in-out 320ms forwards;
+    }
+    .navbar{
+        position: unset!important;
+    }
+    .navbar-brand img {
+
+        height: 70px;
+    }
+}
+@media (max-width:414px){
+    #close{
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+    .line{
+        width: 18px;
+        height: 1px;
+        background-color: gray;
+        margin-top: 5px;
+    }
+    .line:first-child{
+        margin-top: 0;
+    }
+    #navbarText{
+        position: fixed;
+        display: none;
+        width: 150px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        height: 100vh;
+        transition: ease-in-out 320ms;
+        right: 0;
+        z-index: 100;
+        top: 0;
+        opacity: 0;
+        animation: abrir-menu ease-in-out 320ms forwards;
+    }
+    .nav-link{
+        font-size: 12px!important;
+    }
+    .navbar{
+        position: unset!important;
+    }
+    .navbar-brand img {
+
+        height: 50px;
+    }
+    .app{
+        border-radius: 15px;
+        padding: 5px 14px!important;
+    }
+    #formFooter{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+}
+    @keyframes abrir-menu{
+        0%{
+            opacity: 0;
+            right: -300px;
+        }
+        100%{
+            opacity: 1;
+            right: 0;
+        }
+    }

@@ -1,0 +1,40 @@
+#cadastro{
+    color: #002F66;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+#subCadastro{
+    color: #002F66;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.col{
+    font-size: 16px;
+    color: #002F66;
+}
+.btnForm{
+    max-width: 100%;
+    font-size: 20px;
+    background-color: #4A97FD;
+    color: white;
+    border: none;
+    border-radius: 12px 12px;
+}
+.btnForm:hover{
+    background-color: #3979FF;
+}
+.botoes{
+    display:flex;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+#apagar{
+    margin-left: 15px;
+    padding: 6px 15px;
+    outline: none;
+}
+#enviar{
+    padding: 6px 18px;
+    outline: none;
+}

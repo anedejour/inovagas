@@ -1,0 +1,13 @@
+.carousel-inner{
+    margin-top: 150px;
+    margin-bottom: 130px;
+}
+.carousel-control-prev-icon, 
+.carousel-control-next-icon{
+    color: #066CCC!important;
+}
+@media (max-width:900px){
+
+    }
+}
+

@@ -1,0 +1,122 @@
+.carteira{
+    display: flex;
+    display: contents;
+}
+.minhaCarteira{
+    flex: 1;
+}
+#container{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+section{
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+.content{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#valorCredito{
+    margin-top: 80px;
+}
+.titulo{
+    font-size: 30px;    
+    text-align: center;
+    color: #002F66;
+    font-weight:bolder;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.title{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#total{
+    color: #002F66;
+    background-color: rgba(0, 0, 0, 0.04);
+    font-weight: bolder;
+    text-align: center;
+}
+.inserirValor{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.data{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#valor{
+    font-size: 24px;    
+    text-align: center;
+    color: #002F66;
+    color: green;
+}
+#valorCredito{
+    font-size: 16px;  
+    text-align: center;
+    color: green;
+    width: 200px;
+}
+#numeroCartao{
+    width: 250px;
+    text-align: center;
+    color: #002F66;
+}
+.tipoCartao{
+    margin-bottom: 20px;
+}
+.detalhado{
+    margin-bottom: 100px;
+}
+.btnForm{
+    max-width: 100%;
+    font-size: 20px;
+    background-color: #4A97FD;
+    color: white;
+    border: none;
+    border-radius: 12px 12px;
+    line-height: 1;
+}
+.btnForm:hover{
+    background-color: #3979FF;
+}
+.far{
+    margin-right: 5px;
+}
+#enviar{
+    padding: 12px 27px;
+    outline: none;
+    display:flex;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+}
+.cabecalhoHistorico{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;    
+}
+#datatxt{
+    margin-left: 238px;
+}   
+#valortxt{
+    margin-left: 497px;
+}
+#resposta{
+    font-size: 16px;
+}
+
