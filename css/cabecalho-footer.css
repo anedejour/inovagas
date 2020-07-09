@@ -100,6 +100,7 @@ body{
         flex-direction: column;
         border: 1px solid gray;
         border-radius: 5px;
+        z-index: 100;
     }
     .line{
         width: 20px;
@@ -121,7 +122,7 @@ body{
         height: 100vh;
         transition: ease-in-out 320ms;
         right: 0;
-        z-index: 100;
+        z-index: 10;
         top: 0;
         opacity: 0;
         animation: abrir-menu ease-in-out 320ms forwards;
@@ -132,6 +133,16 @@ body{
     .navbar-brand img {
 
         height: 70px;
+    }
+    .hold{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar{
+        z-index: 50;
+    }
+    .collapse{
+        z-index: 10;
     }
 }
 @media (max-width:414px){
@@ -144,6 +155,7 @@ body{
         flex-direction: column;
         border: 1px solid gray;
         border-radius: 5px;
+        z-index: 100;
     }
     .line{
         width: 18px;
@@ -165,7 +177,7 @@ body{
         height: 100vh;
         transition: ease-in-out 320ms;
         right: 0;
-        z-index: 100;
+        z-index: 10;
         top: 0;
         opacity: 0;
         animation: abrir-menu ease-in-out 320ms forwards;
