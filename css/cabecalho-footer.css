@@ -68,6 +68,8 @@ body{
     font-size: 35px;
     color: rgba(0, 0, 0, 0.4);
     margin-left: 10px;
+    transition: ease-in-out 380ms;
+    cursor: pointer;
 }
 #redesSociais{
     display: flex;
